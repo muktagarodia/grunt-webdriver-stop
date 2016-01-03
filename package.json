@@ -1,0 +1,40 @@
+{
+  "name": "webdriver-stop",
+  "version": "0.0.1",
+  "description": "a plugin top stop webdriver",
+  "repository": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt-mocha": "^0.4.15",
+    "grunt-mocha-test": "^0.12.7",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0",
+    "mocha": "^2.3.4",
+    "portfinder": "^0.4.0",
+    "protractor": "^3.0.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "update_webdriver": "node ./node_modules/protractor/bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
