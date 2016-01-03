@@ -1,8 +1,11 @@
 {
-  "name": "webdriver-stop",
+  "name": "grunt-webdriver-stop",
   "version": "0.0.1",
   "description": "a plugin top stop webdriver",
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/muktagarodia/grunt-webdriver-stop.git"
+  },
   "author": {
     "name": "",
     "email": "",
